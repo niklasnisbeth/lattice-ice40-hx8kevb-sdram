@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name tsopii-54)(type KiCad)(uri "$(KIPRJMOD)/tsopii-54.pretty")(options "")(descr ""))
+  (lib (name knielsenlib)(type KiCad)(uri /home/niklas/kicad/knielsenlib.pretty)(options "")(descr ""))
+)
