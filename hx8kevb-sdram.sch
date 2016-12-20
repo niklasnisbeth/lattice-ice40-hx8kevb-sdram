@@ -150,7 +150,7 @@ Text Label 3500 2800 0    60   ~ 0
 DQ4
 Text Label 3500 2600 0    60   ~ 0
 DQ2
-Text Label 3500 2500 0    60   ~ 0
+Text Label 3450 2400 0    60   ~ 0
 DQ0
 Text Label 4900 2600 2    60   ~ 0
 DQ1
@@ -594,12 +594,8 @@ Text Label 4950 2100 2    60   ~ 0
 GPIO1
 Text Label 4950 2200 2    60   ~ 0
 GPIO3
-Text Label 3450 2400 0    60   ~ 0
-GPIO6
 Text Label 4950 2400 2    60   ~ 0
 GPIO5
-Text Label 4950 2500 2    60   ~ 0
-GPIO7
 Text Label 7200 5650 2    60   ~ 0
 GPIO6
 Text Label 7200 5750 2    60   ~ 0
@@ -621,8 +617,6 @@ Wire Wire Line
 	6700 5750 7200 5750
 Wire Wire Line
 	6700 5650 7200 5650
-Wire Wire Line
-	4450 2500 4950 2500
 Wire Wire Line
 	4450 2400 4950 2400
 Wire Wire Line
@@ -925,8 +919,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 2600 4900 2600
 Wire Wire Line
-	3950 2500 3500 2500
-Wire Wire Line
 	3950 2600 3500 2600
 Wire Wire Line
 	3950 2800 3500 2800
@@ -1043,4 +1035,6 @@ $EndComp
 Connection ~ 2000 4000
 Connection ~ 3800 1650
 NoConn ~ 2150 2000
+NoConn ~ 3950 2500
+NoConn ~ 4450 2500
 $EndSCHEMATC
